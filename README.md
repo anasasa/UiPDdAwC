@@ -18,10 +18,14 @@ Log in to Azure using command line:
 az login --use-device-code
 ```
 
-Download repository and run script file
+Download repository from github
 ```bash
 git clone https://github.com/anasasa/UiPDdAwC
-./runme.sh
+./UiPDdAwC/runme.sh
+```
+Set paramterer (index number) and run script
+```bash
+myindex=69303
+./UiPDdAwC/runme.sh
 ```
 
-  
