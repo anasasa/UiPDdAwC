@@ -112,7 +112,7 @@
                             "minInstanceCount": 1,
                             "targetInstanceCount": 2,
                             "hardwareProfile": {
-                                "vmSize": "Standard_E2s_V3"
+                                "vmSize": "Standard_E4_V3"
                             },
                             "osProfile": {
                                 "linuxOperatingSystemProfile": {
@@ -130,7 +130,7 @@
                             "name": "workernode",
                             "targetInstanceCount": 4,
                             "hardwareProfile": {
-                                "vmSize": "Standard_E4a_v4"
+                                "vmSize": "Standard_E4_V3"
                             },
                             "osProfile": {
                                 "linuxOperatingSystemProfile": {
