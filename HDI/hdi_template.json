@@ -169,7 +169,7 @@
         },
         {
             "type": "Microsoft.Storage/storageAccounts",
-            "name": "hdi69303hdistorage",
+            "name": "[parameters('storageName')]",
             "apiVersion": "2015-05-01-preview",
             "location": "australiaeast",
             "properties": {
