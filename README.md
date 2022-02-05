@@ -1,6 +1,7 @@
 # UiPDdAwC
 Final project in the course Usługi i platformy deweloperskie dla aplikacji w Chmurze (UiPDdAwC)
 
+Creation of Hadoop cluster and deplyoment of function, responsible for displaying computed data from cluster, on Microsoft Azure.
 
 ## Workstation requirements
 
