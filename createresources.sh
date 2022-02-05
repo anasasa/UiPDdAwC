@@ -1,4 +1,7 @@
 #!/bin/bash
+set -o nounset
+set -o errexit
+set -o pipefail
 DIR=$(dirname -- "$(readlink -f "${BASH_SOURCE}")")
 echo "Creating Azure resources"
 az group create --name "group${myindex}" --location australiaeast
