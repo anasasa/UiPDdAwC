@@ -98,7 +98,7 @@
                         {
                             "name": "hdi69303hdistorage.blob.core.windows.net",
                             "isDefault": true,
-                            "container": "hdi69303-2022-02-01t23-31-10-914z",
+                            "container": "hdi69303-2022-02-05t03-19-54-468z",
                             "key": "[listKeys('Microsoft.Storage/storageAccounts/hdi69303hdistorage', '2015-05-01-preview').key1]",
                             "resourceId": "/subscriptions/db290f9f-4140-4b3b-a54d-c0c5da939929/resourceGroups/group69303/providers/Microsoft.Storage/storageAccounts/hdi69303hdistorage"
                         }
@@ -169,7 +169,7 @@
         },
         {
             "type": "Microsoft.Storage/storageAccounts",
-            "name": "[parameters('storageName')]",
+            "name": "hdi69303hdistorage",
             "apiVersion": "2015-05-01-preview",
             "location": "australiaeast",
             "properties": {
@@ -178,4 +178,3 @@
         }
     ]
 }
-

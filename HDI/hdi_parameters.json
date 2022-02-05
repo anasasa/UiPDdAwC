@@ -31,10 +31,6 @@
         },
         "minTlsVersionNumber": {
             "value": "1.2"
-        },
-	"storageName": {
-            "value": "storageName"
         }
-
     }
 }
