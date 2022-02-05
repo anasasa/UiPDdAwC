@@ -30,7 +30,7 @@ Download repository from github
 ```bash
 git clone https://github.com/anasasa/UiPDdAwC
 ```
-Set paramterer (index number) and run script
+and run script to create Azure resources
 ```bash
 ./UiPDdAwC/createresources.sh
 ```
@@ -38,12 +38,12 @@ Set paramterer (index number) and run script
 **2. Prepare data on hadoop cluster**<br>
 Upload data to hadoop cluster
 ```bash
-scp -r ./UiPDdAwC/HDI/data sshuser@hdi${myindex}-ssh.azurehdinsight.net:/home/sshuser/data
+scp -r ./UiPDdAwC/HDI/data sshuser@hdi${${MY_INDEX}}-ssh.azurehdinsight.net:/home/sshuser/data
 ```
 
 Log in to hadoop cluster
 ```bash
-ssh sshuser@hdi${myindex}-ssh.azurehdinsight.net
+ssh sshuser@hdi${${MY_INDEX}}-ssh.azurehdinsight.net
 ```
 and run below commands
 ```bash
