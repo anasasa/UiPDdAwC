@@ -42,10 +42,11 @@ scp -r ./UiPDdAwC/HDI/data sshuser@hdi${myindex}-ssh.azurehdinsight.net:/home/ss
 
 Log in to hadoop cluster
 ```bash
-hdfs dfs -copyFromLocal ./data/data.txt /user/data.txt
+ssh sshuser@hdi${myindex}-ssh.azurehdinsight.net
 ```
 and run below commands
 ```bash
+hdfs dfs -copyFromLocal ./data/data.txt /user/data.txt
 hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -files ./data/MRatingCount.py,./data/RRatingCount.py -mapper MRatingCount.py -reducer RRatingCount.py -input /user/data.txt -output /user/count
 ```
 
