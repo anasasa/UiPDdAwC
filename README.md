@@ -31,7 +31,6 @@ git clone https://github.com/anasasa/UiPDdAwC
 ```
 Set paramterer (index number) and run script
 ```bash
-export myindex=69303
 ./UiPDdAwC/createresourceis.sh
 ```
 
