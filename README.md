@@ -13,7 +13,7 @@ Creation of Hadoop cluster and deplyoment of function, responsible for displayin
 	- portal.azure.com
 4. System variables set:
 ```bash
-export MYINDEX=<index parameter>
+export MY_INDEX=<index parameter>
 export HDI_PASSWORD=<define hadoop cluster password>
 ```
 
